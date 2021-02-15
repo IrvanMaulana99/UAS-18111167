@@ -1,0 +1,105 @@
+/* import font linotte */
+@font-face {
+    font-family: "linotte";
+    src: url(../font/linotte/font_linotte_normal.otf);
+  }
+  /* import font kaushan script */
+  @font-face {
+    font-family: "kaushan-script";
+    src: url(../font/Kaushan_Script/KaushanScript-Regular.ttf);
+  }
+  /* bagian body */
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/gambar/background.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: "linotte";
+    box-shadow: border-box;
+  }
+  /* bagian kontainer bentuk kartu */
+  .card-container {
+    width: 300px;
+    height: 430px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px black;
+    overflow: hidden;
+    display: inline-block;
+  }
+  /* bagian kontainer atas */
+  .upper-container {
+    height: 150px;
+    background: #8BD3BF;
+  }
+  /* container untuk gambar */
+  .image-container {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(100px, 100px);
+  }
+  /* bagian gambar pada container */
+  .image-container img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  /* bagian kontainer bawah */
+  .lower-container {
+    height: 280px;
+    background: white;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  /* properti h3 dan h4 pada kontainer bawah */
+  .lower-container h3,
+  h4 {
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 0.6;
+    font-weight: lighter;
+  }
+  .lower-container h4 {
+    font-family: "kaushan-script";
+    color: #7f00ff;
+    opacity: 0.6;
+    font-weight: bold;
+  }
+  /* properti p pada kontainer bawah */
+  .lower-container p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+  }
+  /* properti button pada kontainer bawah */
+  .lower-container .btn {
+    text-decoration: none;
+    text-size-adjust: 5px;
+    padding: 12px 20px;
+    width: 150px;
+    background-color: #EAB088;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  /* animasi hover untuk button */
+  .lower-container .btn:hover {
+    background-color: black;
+  }
