@@ -1,9 +1,11 @@
 # [UAS - Pemrograman Web - 18111167 ](https://sarangit18111167.000webhostapp.com/)
 
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 ## Preview Tampilan Website
 
 [![Preview](https://i.imgur.com/4im9mTE.png)](https://sarangit18111167.000webhostapp.com/)
-**[Lihat Tampilan](https://sarangit18111167.000webhostapp.com/)**
+
 
 ## Rincian
 
@@ -15,6 +17,4 @@ Kelas     : TIF -RP - 18 CNS A
 
 Matkul    : Pemrograman Web
 
-Dosen     : Nova Agustina S.T.,M.Kom.
 
-Link Webhost : https://sarangit18111167.000webhostapp.com/
